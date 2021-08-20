@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Piedra&display=swap');
+
+:root{
+    font-family: 'Piedra', cursive;
+    --primary-color: #CACFD2;
+    --secondary-color:#3498DB ;
+}
+
+.body{
+    background-color: white;
+    margin: 0px;
+    
+}
+
+.navigation {
+    background-color: var(--secondary-color);
+    color: white;
+    padding: 2rem;
+    text-align: center;
+    font-size: 3.5rem;
+}
+
+.container {
+    padding: 0rem 1rem;
+}
+
+.center{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+}
+.center-2{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: right-2;
+}
+
+textarea{
+    width:50%;
+    height:10vh;
+    border-color:var(--secondary-color); 
+    background-color:#EBF5FB ;
+    border-radius: 5rem;
+    border-width: 0.5rem;
+    padding: 1rem 1rem;
+    font-size: 25px;
+    margin: 0rem;
+    font-family: 'Piedra', cursive;
+    color: var(--secondary-color);
+}
+
+.output{
+    width:50%;
+    height:10vh;
+    border-style: solid;
+    border-color: var(--secondary-color); 
+    border-radius: 5rem;
+    border-width: 0.5rem;
+    padding:1rem 1rem;
+    font-size: 25px;   
+    font-family: 'Piedra', cursive;
+    margin-bottom: 1.5rem;
+    background-color:#EBF5FB ;
+    color: var(--secondary-color);
+    
+}
+
+.button{
+    background-color:var(--secondary-color);
+    color: white;
+    font-size: 30px;
+    margin: 1rem 1rem;
+    padding: 1rem;
+    border-top-right-radius: 2rem;
+    border-bottom-left-radius: 2rem;
+    border-top-left-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+    font-family: 'Piedra', cursive;
+}
+
+h2{
+    font-size: 2.5rem;
+    color: var(--secondary-color);
+    margin: 0rem;
+}
+
+.bottomText{
+    background-color: var(--secondary-color);
+    color: white;
+    padding: 0.85rem;
+    font-size: 20px;
+    font-family: 'Piedra', cursive;
+}
+
