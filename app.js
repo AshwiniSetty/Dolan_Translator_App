@@ -1,6 +1,6 @@
 var buttonTranslate = document.querySelector("#button");
 var txtInput = document.querySelector("#txt-input");
-var outputDiv = document.getElementById("#output");
+var outputDiv = document.querySelector("#output");
 
 var serverURL = "https://api.funtranslations.com/translate/dolan.json";
 //var url="https://lessonfourapi.tanaypratap.repl.co/translate/yoda.json";
